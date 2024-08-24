@@ -1,0 +1,118 @@
+h1{
+  color: brown;
+}
+body{
+  background-color: black;
+  font-family: 'Poppins','Courier New', Courier, monospace;
+}
+.view{
+  width: 50px;
+  height: 50px;
+}
+#bhidu{
+  position: absolute;
+  top: 0;
+  left: 50px;
+  right: 0;
+  width: 500px;
+  height: 10%;
+  font-size:1.25rem;
+  font-weight: 600;
+  margin-left: 300px;
+margin-right: 300px;
+}
+.chi {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+.chi{
+  width: 200px;
+  border:1px solid white;
+  
+}
+#myc{
+  margin-left: 50px;
+}
+
+
+.maincontainer{
+  width: 340px;
+  
+  height:10rem;
+}
+li{
+  list-style: none;
+ font-size:1.25rem;
+}
+
+.sidebar{
+  background-color: #121212;
+  display:flex;
+  flex-direction:column;
+  width:340px;
+  height: 3340px;
+  font-size: 2rem;
+}
+
+   a{
+      display: flex;
+      margin:1rem;
+      font-size:0.75rem;
+      text-decoration: none;
+      color: #e5e5e5;
+  }
+body{
+  
+  color: white;
+}
+p{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+img{
+  transition: all .4s ease-in-out;
+ margin-left: 0;
+}
+.create{
+  position: absolute;
+  top:0;
+}
+a{
+  margin: 10px;
+  display: inline;
+}
+h3{
+  padding: 5px 3px 4px;
+}
+.attr{
+  font-size: 1.25rem;
+  padding: 20px;
+}
+i{
+  margin-right: 5px;
+}
+
+.tweets{
+  margin: 10px;
+ margin-bottom: 60px;
+  width:500px;
+  height:500px;
+  display: flex;
+    padding: 0 1.5rem 0 1.5rem;
+  flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
